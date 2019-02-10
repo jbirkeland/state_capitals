@@ -97,6 +97,39 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+    
+  body {
+    font-family: Helvetica, sans-serif;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .states {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .individual-state {
+    position: relative;
+    width: 32%;
+    padding: 4em;
+    margin: .25em;
+  }
+
+  h2 {
+    position: absolute;
+    bottom: 0;
+    right: 33%;
+  }
 
 
 
